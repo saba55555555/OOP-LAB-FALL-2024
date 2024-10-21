@@ -1,0 +1,53 @@
+package lab;
+
+
+public class Area {
+    int l=30;
+    int w=5;
+    int a=l*w;
+    public static void main(String[] args) {
+        Area Total=new Area();
+        System.out.println(Total.a);
+    }
+}
+
+
+
+
+Define a class Computer with variables: name, config, cost, and os.
+ Use a parameterized constructor and methods: getName, getConfig, getCost, getOs.
+ The output should be:
+The company name is Apple
+The configuration is i5
+Its Cost is 50000
+Its operating System is IOS
+
+package computer;
+
+
+public class Computer {
+
+      String name;
+    String config;
+    int cost;
+    String os;
+    void displayDetails() {
+        System.out.println("The company name is " + name);
+        System.out.println("The configuration is " + config);
+        System.out.println("Its Cost is " + cost);
+        System.out.println("Its operating System is " + os);
+    }
+
+    public static void main(String[] args) {
+    Computer c = new Computer();
+
+        c.name = "Apple";
+       c.config = "i5";
+        c.cost = 50000;
+        c.os = "IOS";
+
+       c.displayDetails();
+    }
+    }
+    
+    
