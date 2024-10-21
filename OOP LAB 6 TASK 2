@@ -1,0 +1,12 @@
+package lab;
+
+
+public class Area {
+    int l=30;
+    int w=5;
+    int a=l*w;
+    public static void main(String[] args) {
+        Area Total=new Area();
+        System.out.println(Total.a);
+    }
+}
