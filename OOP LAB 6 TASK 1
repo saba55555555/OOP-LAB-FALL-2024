@@ -1,0 +1,46 @@
+package setter;
+class Book{
+    private String title;
+      private String author;
+        private String isbn;
+        //setter
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+        //getter
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+    
+    
+}
+
+public class Setter {
+ public static void main(String[] args) {
+Book b=new Book() ;
+b.setTitle("Mrs .Chips");
+b.setAuthor("coelho");
+b.setIsbn("07665443er66");
+     System.out.println("Book Title:"+b.getTitle());
+     System.out.println("Book Authoris:"+b.getAuthor());
+     System.out.println("Book Isbn is:"+b.getIsbn());
+           
+}
